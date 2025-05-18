@@ -29,31 +29,26 @@ It performs UI automation testing on [Amazon.ca](https://www.amazon.ca) to simul
 
 ---
 
-## 📂 Project Structure
-
 AmazonProject/
-│
-├── src/test/java
-│ ├── pages/
-│ │ ├── HomePage.java
-│ │ ├── SearchResultsPage.java
-│ │ ├── ProductPage.java
-│ │ ├── CartPage.java
-│ │ └── BasePage.java
-│ │
-│ ├── tests/
-│ │ ├── HomePageTest.java
-│ │ ├── SearchProductTest.java
-│ │ ├── ProductDetailsTest.java
-│ │ └── AddToCartTest.java
-│ │
-│ └── utils/
-│ ├── DriverFactory.java
-│ └── ConfigReader.java
-│
-├── testng.xml
-├── pom.xml
-└── config.properties
+├── src/test/java/
+│   ├── pages/
+│   │   ├── HomePage.java  
+│   │   ├── SearchResultsPage.java  
+│   │   ├── ProductPage.java  
+│   │   ├── CartPage.java  
+│   │   └── BasePage.java  
+│   ├── tests/
+│   │   ├── HomePageTest.java  
+│   │   ├── SearchProductTest.java  
+│   │   ├── ProductDetailsTest.java  
+│   │   └── AddToCartTest.java  
+│   └── utils/
+│       ├── DriverFactory.java  
+│       └── ConfigReader.java  
+├── config.properties  
+├── pom.xml  
+├── testng.xml  
+└── README.md
 
 
 ---
