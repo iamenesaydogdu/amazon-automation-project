@@ -1,0 +1,1 @@
+Amazon.ca full automation test project with Java, Selenium, TestNG.
